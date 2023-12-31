@@ -72,7 +72,8 @@ p {
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 28px; /* 155.556% */
+    line-height: 28px;
+    /* 155.556% */
     letter-spacing: 0.18px;
 }
 
@@ -224,12 +225,16 @@ ul.menu-icon li .count {
     font-size: 12px;
     background: #B39957;
 }
+.flag-icon img {
+    width: 20px;
+    margin-right: 10px;
+}
 
-section.find-sec {
+.find-sec {
     padding: 70px 0;
 }
 
-section.find-sec h1 {
+.find-sec h1 {
     color: #475569;
     font-family: 'SF UI Display Semibold';
     font-size: 60px;
@@ -305,6 +310,9 @@ section.find-sec h1 {
     top: 160px;
     right: -40px;
     width: 56%;
+}
+.high-definition .piano-mob-img {
+    display: none;
 }
 
 .high-definition .content-txt::before {
@@ -392,10 +400,12 @@ section.find-sec h1 {
     flex-wrap: wrap;
     background-position: center center;
 }
+
 .tech-txt {
     padding-top: 80px;
     position: relative;
 }
+
 .technology-sec .tech-txt h2 {
     color: #000;
     font-family: 'SF UI Display Light';
@@ -473,6 +483,7 @@ section.find-sec h1 {
     text-align: center;
     margin-bottom: 40px;
 }
+
 .advanced-sensing-sec {
     position: relative;
     padding: 40px 0 40px;
@@ -492,6 +503,7 @@ section.find-sec h1 {
 .advanced-sensing-sec .content-txt h2 span {
     color: #B39957;
 }
+
 .advanced-sensing-sec .content-txt p {
     text-align: center;
     font-size: 18px;
@@ -499,10 +511,12 @@ section.find-sec h1 {
     letter-spacing: 0.18px;
     margin-bottom: 50px;
 }
+
 .advanced-sensing-sec .content-txt {
     text-align: center;
     position: relative;
 }
+
 .control-sec .content-txt h2 {
     color: #000;
     font-family: 'SF UI Display Light';
@@ -515,15 +529,18 @@ section.find-sec h1 {
 
 .control-sec .content-txt p {
     font-size: 18px;
-    line-height: 28px; /* 155.556% */
+    line-height: 28px;
+    /* 155.556% */
     letter-spacing: 0.18px;
 }
+
 .control-sec .content-txt h2 span {
     color: #B39957;
 }
+
 .control-sec {
     padding: 80px 0;
-    position:relative;
+    position: relative;
 }
 
 .experience-sec {
@@ -531,11 +548,13 @@ section.find-sec h1 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .experience-sec .tech-txt h2 {
     margin-bottom: 15px;
 }
+
 .everyone-sec {
-    padding: 80px 0 40px;
+    padding: 80px 0;
 }
 
 .everyone-sec .everyone-box h3 {
@@ -580,6 +599,7 @@ section.find-sec h1 {
     font-family: 'SF UI Display Light';
     height: 130px;
 }
+
 .everyone-sec .everyone-box .everyone-txt a {
     color: #B39957;
     text-align: center;
@@ -604,14 +624,73 @@ section.find-sec h1 {
     background: #475569;
 }
 
-.everyone-sec .everyone-box.even-box {border-color: #475569;}
+.everyone-sec .everyone-box.even-box {
+    border-color: #475569;
+}
 
 .everyone-sec .everyone-box.even-box .everyone-txt a {
     color: #475569;
 }
+
 .music-sec {
     background: url(../img/music.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+}
+
+.smart-piano-sec {
+    padding: 80px 0;
+    position: relative;
+}
+
+.piano-slider .item h3 {
+    color: #000;
+    text-align: center;
+    font-family: 'SF UI Display Thin';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+.piano-slider .item img {
+    width: auto;
+    height: 330px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.smart-piano-sec h2 {
+    color: #475569;
+    text-align: center;
+    font-family: 'SF UI Display Light';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.piano-slider .owl-carousel .owl-dots {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.piano-slider .owl-carousel .owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.piano-slider .owl-carousel .owl-dot.active {
+    background-color: #B39957;
+}
+.mob-img {
+    display: none;
 }

@@ -10,23 +10,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/stylesheet.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="logo">
                         <img src="img/logo.png" />
                     </div>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 col-md-6 col-sm-6">
                     <div class="right-side text-end">
                         <h2 class="menu-toggle"><i class="fa-solid fa-bars"></i></h2>
                         <div class="nav-menu">
+                            <span class="menu-close"><i class="fa-solid fa-times"></i></span>
                             <ul class="menu">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Pianos</a></li>
@@ -37,7 +42,7 @@
                                 <li><a href="#">Contact</a></li>
                             </ul>
                             <div class="top-icon">
-                                <div class="flag-icon">Flag</div>
+                                <div class="flag-icon"><a href="#"><img src="img/uk.png"></a></div>
                                 <ul class="menu-icon">
                                     <li><a href="#"><i class="fa-solid fa-search"></i></a></li>
                                     <li><a href="#"><i class="fa-solid fa-cart-shopping"></i><span
@@ -54,12 +59,12 @@
     <section class="find-sec">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="find-text">
                         <h1>FIND</h1>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="right-txt">
                         <h2>harmonising <span>tradition</span><br />
                             with <span>technology.</span></h2>
@@ -91,6 +96,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
+                    <img class="piano-mob-img" src="img/painoworld.jpeg" alt="piano" />
                 </div>
             </div>
         </div>
@@ -149,6 +155,7 @@
                     <div class="tech-txt">
                         <h2>Fusing <span>technology</span> with <span>tradition</span> to elevate the art of Piano
                             playing.</h2>
+                            <img class="mob-img" src="img/bg-img.jpeg" />
                     </div>
                 </div>
             </div>
@@ -171,7 +178,8 @@
                 </div>
             </div>
         </div>
-        <img src="img/tech-img.jpeg" />
+        <img class="desktop-img" src="img/tech-img.jpeg" />
+        <img src="img/mob-understand.png" class="mob-img" />
     </section>
 
     <section class="qualcomm-sec">
@@ -196,7 +204,13 @@
                 <div class="col-lg-10 offset-lg-1">
                     <div class="content-txt">
                         <h2>Advanced <span>Sensing</span> and <span>AI Analysis</span></h2>
-                        <p>FIND harnesses advanced sensing technology to gather an extensive array of piano performance images, which are then transformed into 3D models. Leveraging the power of deep learning and reinforcement learning, we've developed sophisticated piano performance analysis and generative models. This innovative approach enables precise recognition of the user's hand movements while playing the piano. By collecting and analyzing multi-dimensional real-time data, including patterns and fingerings, FIND offers intelligent, data-driven teaching assistance, elevating the learning experience to new heights.</p>
+                        <p>FIND harnesses advanced sensing technology to gather an extensive array of piano performance
+                            images, which are then transformed into 3D models. Leveraging the power of deep learning and
+                            reinforcement learning, we've developed sophisticated piano performance analysis and
+                            generative models. This innovative approach enables precise recognition of the user's hand
+                            movements while playing the piano. By collecting and analyzing multi-dimensional real-time
+                            data, including patterns and fingerings, FIND offers intelligent, data-driven teaching
+                            assistance, elevating the learning experience to new heights.</p>
                         <img src="img/ai.png" />
                     </div>
                 </div>
@@ -212,7 +226,11 @@
                 <div class="col-lg-4">
                     <div class="content-txt">
                         <h2>Your <span>Control</span> Hub</h2>
-                        <p>FIND’s control panel is a model of intuitive design, featuring a multipurpose On/Off button for the screen and a separate system power control. Enjoy precise volume adjustments for the rich tones of our 8-inch Silk Speaker. The panel also includes headphone and microphone jacks for personal and quiet practice, and a USB-A input for accessing PDF sheet music or watching MP4 videos on the large display.</p>
+                        <p>FIND’s control panel is a model of intuitive design, featuring a multipurpose On/Off button
+                            for the screen and a separate system power control. Enjoy precise volume adjustments for the
+                            rich tones of our 8-inch Silk Speaker. The panel also includes headphone and microphone
+                            jacks for personal and quiet practice, and a USB-A input for accessing PDF sheet music or
+                            watching MP4 videos on the large display.</p>
                     </div>
                 </div>
             </div>
@@ -224,7 +242,12 @@
                 <div class="col-lg-5">
                     <div class="tech-txt">
                         <h2>Experience a symphony of emotions with FIND’s <span>Smart Pianos</span></h2>
-                        <p>Where technology meets the heart of music. Imagine keys moving in harmony with quartets and symphonies displayed on screen, creating a visual ballet of notes. The piano's soulful 8-inch silk film speaker, with its expansive 120 dB dynamic range and intricate 24-bit depth, envelops you in a soundscape of unrivaled clarity and depth. Each performance becomes a deeply personal concert, touching your heart with every note. This piano doesn't just play music; it brings it to life, transforming your home into a haven of auditory bliss.</p>
+                        <p>Where technology meets the heart of music. Imagine keys moving in harmony with quartets and
+                            symphonies displayed on screen, creating a visual ballet of notes. The piano's soulful
+                            8-inch silk film speaker, with its expansive 120 dB dynamic range and intricate 24-bit
+                            depth, envelops you in a soundscape of unrivaled clarity and depth. Each performance becomes
+                            a deeply personal concert, touching your heart with every note. This piano doesn't just play
+                            music; it brings it to life, transforming your home into a haven of auditory bliss.</p>
                     </div>
                 </div>
             </div>
@@ -278,15 +301,78 @@
                 <div class="col-lg-5">
                     <div class="tech-txt">
                         <h2>Bringing music to life in <span>Your Home</span></h2>
-                        <p>Designed for fun and easy learning, it features a built-in large screen with engaging online courses. Watch your kids play and learn together, turning piano practise into a delightful family bonding experience.</p>
+                        <p>Designed for fun and easy learning, it features a built-in large screen with engaging online
+                            courses. Watch your kids play and learn together, turning piano practise into a delightful
+                            family bonding experience.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="smart-piano-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>FIND Smart Piano Models</h2>
+                    <div class="piano-slider">
+                        <div class="owl-carousel">
+                            <div class="item">
+                                <img src="img/piano1.png" alt="Image 1">
+                                <h3>UF Series Smart Upright in Black</h3>
+                            </div>
+                            <div class="item">
+                                <img src="img/piano2.jpeg" alt="Image 2">
+                                <h3>GF Series Smart Grand in Black</h3>
+                            </div>
+                            <div class="item">
+                                <img src="img/piano3.jpeg" alt="Image 3">
+                                <h3>GF Series Smart Grand in White</h3>
+                            </div>
+                            <div class="item">
+                                <img src="img/piano2.jpeg" alt="Image 2">
+                                <h3>GF Series Smart Grand in Black</h3>
+                            </div>
+                            <div class="item">
+                                <img src="img/piano3.jpeg" alt="Image 3">
+                                <h3>GF Series Smart Grand in White</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery(".owl-carousel").owlCarousel({
+                items: 3, // Number of items to show on desktop
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3],
+                itemsTablet: [768, 2],
+                itemsMobile: [479, 1],
+                loop: true,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 3000, // Adjust the autoplay timeout as needed
+                autoplayHoverPause: false
+            });
+
+            jQuery('.menu-toggle').on('click', function () {
+                jQuery('.nav-menu').addClass('active');
+            });
+
+            jQuery('.menu-close').on('click', function () {
+                jQuery('.nav-menu').removeClass('active');
+            });
+
+        });
+    </script>
 </body>
 
 </html>
