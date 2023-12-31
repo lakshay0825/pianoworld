@@ -609,3 +609,9 @@ section.find-sec h1 {
 .everyone-sec .everyone-box.even-box .everyone-txt a {
     color: #475569;
 }
+.music-sec {
+    background: url(../img/music.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
