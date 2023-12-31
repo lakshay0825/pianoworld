@@ -694,3 +694,6 @@ ul.menu-icon li .count {
 .mob-img {
     display: none;
 }
+span.menu-close {
+    display: none;
+}

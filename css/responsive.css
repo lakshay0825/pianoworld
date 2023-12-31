@@ -48,7 +48,9 @@
         padding: 25px;
         transition: all 0.5s;
     }
-
+    span.menu-close {
+        display: block;
+    }
     h2.menu-toggle {
         display: block;
         color: #fff;
