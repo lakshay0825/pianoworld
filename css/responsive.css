@@ -49,7 +49,7 @@
         transition: all 0.5s;
     }
     span.menu-close {
-        display: block;
+        display: inline;
     }
     h2.menu-toggle {
         display: block;
