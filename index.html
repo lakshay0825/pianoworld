@@ -22,12 +22,12 @@
     <header class="header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="logo">
                         <img src="img/logo.png" />
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-6 col-sm-6">
+                <div class="col-lg-9 col-md-6 col-sm-6 col-6">
                     <div class="right-side text-end">
                         <h2 class="menu-toggle"><i class="fa-solid fa-bars"></i></h2>
                         <div class="nav-menu">
@@ -155,7 +155,7 @@
                     <div class="tech-txt">
                         <h2>Fusing <span>technology</span> with <span>tradition</span> to elevate the art of Piano
                             playing.</h2>
-                            <img class="mob-img" src="img/bg-img.jpeg" />
+                        <img class="mob-img" src="img/bg-mob.png" />
                     </div>
                 </div>
             </div>
@@ -220,10 +220,10 @@
     <section class="control-sec">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 order-2 order-lg-1">
                     <img class="find-img" src="img/find.jpeg" alt="find" />
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 order-1 order-lg-2">
                     <div class="content-txt">
                         <h2>Your <span>Control</span> Hub</h2>
                         <p>FIND’s control panel is a model of intuitive design, featuring a multipurpose On/Off button
@@ -304,6 +304,7 @@
                         <p>Designed for fun and easy learning, it features a built-in large screen with engaging online
                             courses. Watch your kids play and learn together, turning piano practise into a delightful
                             family bonding experience.</p>
+                        <img class="mob-img" src="img/music-mob.jpeg" />
                     </div>
                 </div>
             </div>
@@ -350,17 +351,30 @@
     <script>
         jQuery(document).ready(function () {
             jQuery(".owl-carousel").owlCarousel({
-                items: 3, // Number of items to show on desktop
-                itemsDesktop: [1199, 3],
-                itemsDesktopSmall: [979, 3],
-                itemsTablet: [768, 2],
-                itemsMobile: [479, 1],
+                items: 3,
                 loop: true,
                 nav: false,
                 dots: true,
                 autoplay: true,
-                autoplayTimeout: 3000, // Adjust the autoplay timeout as needed
-                autoplayHoverPause: false
+                autoplayTimeout: 3000,
+                autoplayHoverPause: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    479: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    979: {
+                        items: 3,
+                    },
+                    1199: {
+                        items: 3,
+                    }
+                }
             });
 
             jQuery('.menu-toggle').on('click', function () {
