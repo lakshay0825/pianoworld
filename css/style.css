@@ -396,7 +396,7 @@ ul.menu-icon li .count {
 }
 
 .technology-sec {
-    background: url(../img/bg-img.jpeg);
+    background: url(../img/bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -658,7 +658,7 @@ ul.menu-icon li .count {
 }
 
 .music-sec {
-    background: url(../img/music.jpeg);
+    background: url(../img/music.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
