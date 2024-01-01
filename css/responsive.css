@@ -153,7 +153,7 @@
     }
 
     .video-section {
-        height: 350px;
+        height: 70vh;
     }
 
     .high-definition .content-txt::before {
@@ -164,6 +164,10 @@
         font-size: 36px;
     }
 
+    .high-definition .content-txt {
+        padding-left: 15px;
+    }
+    
     .piano-mob-img {
         margin-top: 15px;
     }
@@ -191,6 +195,7 @@
 
     .tech-txt {
         padding-top: 0;
+        padding-left: 0;
     }
 
     .technology-sec .tech-txt h2 {
@@ -219,6 +224,10 @@
         margin-bottom: 30px;
     }
 
+    .piano-sec {
+        padding: 40px 0 40px;
+    }
+    
     .piano-sec .content-txt h2 {
         font-size: 36px;
         text-align: left;
