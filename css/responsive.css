@@ -237,15 +237,15 @@
 
     .piano-sec .content-txt p {
         text-align: left;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .high-definition .content-txt p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .qualcomm-sec .content-txt h2 {
@@ -263,7 +263,7 @@
     }
 
     .advanced-sensing-sec .content-txt p {
-        font-size: 16px;
+        font-size: 18px;
         text-align: left;
     }
 
@@ -272,7 +272,7 @@
     }
 
     .control-sec .content-txt p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .everyone-sec .everyone-box .everyone-txt p {
@@ -302,7 +302,7 @@
     }
 
     .piano-slider .item h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .piano-slider .owl-carousel .owl-dots {
