@@ -225,6 +225,7 @@ ul.menu-icon li .count {
     font-size: 12px;
     background: #B39957;
 }
+
 .flag-icon img {
     width: 20px;
     margin-right: 10px;
@@ -311,6 +312,7 @@ ul.menu-icon li .count {
     right: -40px;
     width: 56%;
 }
+
 .high-definition .piano-mob-img {
     display: none;
 }
@@ -557,6 +559,21 @@ ul.menu-icon li .count {
     padding: 80px 0;
 }
 
+.everyone-sec h2 {
+    color: #475569;
+    text-align: center;
+    font-family: 'SF UI Display Light';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.everyone-sec h2 span {
+    color: #B39957;
+}
+
 .everyone-sec .everyone-box h3 {
     border-radius: 5px;
     background: #B39957;
@@ -691,9 +708,11 @@ ul.menu-icon li .count {
 .piano-slider .owl-carousel .owl-dot.active {
     background-color: #B39957;
 }
+
 .mob-img {
     display: none;
 }
+
 span.menu-close {
     display: none;
 }

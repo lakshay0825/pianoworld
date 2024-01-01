@@ -23,6 +23,7 @@
     .gamified-sec {
         padding: 50px 0 40px;
     }
+
     .qualcomm-sec {
         padding: 20px 0 40px;
     }
@@ -35,6 +36,7 @@
         color: #fff;
         border-radius: 3px;
     }
+
     .nav-menu {
         display: block;
         position: fixed;
@@ -48,9 +50,11 @@
         padding: 25px;
         transition: all 0.5s;
     }
+
     span.menu-close {
         display: inline;
     }
+
     h2.menu-toggle {
         display: block;
         color: #fff;
@@ -93,25 +97,31 @@
         color: #fff;
         background: #ffc143;
     }
+
     .nav-menu.active {
         right: 0;
     }
+
     .high-definition .piano-img {
         display: none;
     }
+
     .high-definition .piano-mob-img {
         display: block;
     }
+
     .high-definition .content-txt::before {
         height: 100px;
     }
+
     .technology-sec {
         height: 530px;
     }
+
     .control-sec {
         padding: 20px 0 50px;
     }
-    
+
     .control-sec img.find-img {
         margin-top: 30px;
     }
@@ -121,37 +131,45 @@
     .right-txt {
         justify-content: left;
     }
-    
+
     .find-sec {
         padding: 20px 0;
     }
-    
-    .right-txt h2 {font-size: 24px;}
-    
+
+    .right-txt h2 {
+        font-size: 24px;
+    }
+
     .find-sec h1 {
         font-size: 40px;
         margin-bottom: 10px;
     }
+
     .video-section {
         height: 350px;
     }
+
     .high-definition .content-txt::before {
         height: 70px;
     }
+
     .high-definition .content-txt h2 {
         font-size: 32px;
     }
+
     .piano-mob-img {
         margin-top: 15px;
     }
+
     .gamified-sec .content-txt h2 {
         font-size: 32px;
         text-align: left;
     }
+
     .gamified-sec .box-item {
         flex-wrap: wrap;
     }
-    
+
     .gamified-sec .box-item img {
         margin-bottom: 15px;
     }
@@ -161,41 +179,51 @@
         padding: 0px 0 30px;
         height: auto;
     }
-    
-    .tech-txt {padding-top: 0;}
-    
+
+    .tech-txt {
+        padding-top: 0;
+    }
+
     .technology-sec .tech-txt h2 {
         font-size: 32px;
         line-height: normal;
     }
+
     .piano-sec img {
         width: 100%;
     }
+
     .desktop-img {
         display: none;
     }
+
     .mob-img {
         display: block;
         width: 100%;
     }
-    
-    .tech-txt img {
-        margin-top: 30px;
+
+    .tech-txt h2 {
+        margin-bottom: 30px;
     }
+
+    .tech-txt p {
+        margin-bottom: 30px;
+    }
+
     .piano-sec .content-txt h2 {
         font-size: 32px;
         text-align: left;
     }
-    
+
     .piano-sec .content-txt p {
         text-align: left;
         font-size: 16px;
     }
-    
+
     .high-definition .content-txt p {
         font-size: 16px;
     }
-    
+
     p {
         font-size: 16px;
     }
@@ -204,45 +232,60 @@
         text-align: left;
         font-size: 32px;
     }
-    
+
     .qualcomm-sec .content-txt p {
         text-align: left;
     }
-    
+
     .advanced-sensing-sec .content-txt h2 {
         text-align: left;
         font-size: 32px;
     }
-    
+
     .advanced-sensing-sec .content-txt p {
         font-size: 16px;
         text-align: left;
     }
+
     .control-sec .content-txt h2 {
         font-size: 32px;
     }
-    
+
     .control-sec .content-txt p {
         font-size: 16px;
     }
-    
+
     .everyone-sec .everyone-box .everyone-txt p {
         height: auto;
     }
-    
+
     .everyone-sec .everyone-box {
         margin-bottom: 30px;
     }
+
     .everyone-sec {
         padding: 40px 0;
     }
+
     .smart-piano-sec {
         padding: 40px 0;
     }
-    
+
     .smart-piano-sec h2 {
         font-size: 32px;
         text-align: left;
         margin-bottom: 10px;
+    }
+
+    .everyone-sec h2 {
+        font-size: 32px;
+    }
+
+    .piano-slider .item h3 {
+        font-size: 16px;
+    }
+
+    .piano-slider .owl-carousel .owl-dots {
+        margin-top: 10px;
     }
 }
