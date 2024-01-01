@@ -279,7 +279,7 @@ ul.menu-icon li .count {
 }
 
 .high-definition {
-    padding: 80px 0 140px;
+    padding: 80px 0 200px;
     position: relative;
     overflow: hidden;
 }
@@ -308,8 +308,8 @@ ul.menu-icon li .count {
 .high-definition .piano-img {
     display: block;
     position: absolute;
-    top: 160px;
-    right: -40px;
+    top: 165px;
+    right: -4px;
     width: 56%;
 }
 
@@ -329,7 +329,7 @@ ul.menu-icon li .count {
 
 .high-definition .content-txt {
     position: relative;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .gamified-sec .content-txt h2 {
