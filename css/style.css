@@ -396,7 +396,7 @@ ul.menu-icon li .count {
 }
 
 .technology-sec {
-    background: url(../img/bg-img.png);
+    background: url(../img/bg-img.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -658,10 +658,11 @@ ul.menu-icon li .count {
 }
 
 .music-sec {
-    background: url(../img/music.png);
+    background: url(../img/music.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    height: 900px;
 }
 
 .smart-piano-sec {
@@ -685,6 +686,7 @@ ul.menu-icon li .count {
     height: 330px;
     object-fit: contain;
     margin-bottom: 15px;
+    margin: auto;
 }
 
 .smart-piano-sec h2 {
