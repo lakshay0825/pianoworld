@@ -172,6 +172,8 @@
 
     .gamified-sec .box-item img {
         margin-bottom: 15px;
+        width: 100px;
+        margin-right: 0;
     }
 
     .technology-sec {
