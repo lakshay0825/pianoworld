@@ -161,6 +161,10 @@ ul {
     list-style: outside none none;
 }
 
+body, section {
+    overflow-x: hidden;
+}
+
 .container {
     max-width: 1320px;
 }
