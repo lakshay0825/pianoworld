@@ -181,6 +181,8 @@
 
     .gamified-sec .box-item {
         flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .gamified-sec .box-item img {
