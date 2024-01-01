@@ -435,6 +435,10 @@ ul.menu-icon li .count {
     top: 0;
 }
 
+.technology-sec .tech-txt.tech-title h2::before {
+    content: none;
+}
+
 .technology-sec .tech-txt h2 span {
     color: #B39957;
 }
