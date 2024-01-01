@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="fonts/stylesheet.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -84,7 +85,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="content-txt">
+                    <div class="content-txt" data-aos="fade-right" data-aos-duration="2000">
                         <h2>A <span>High-Definition</span> Piano Experience</h2>
                         <p>Immerse yourself in a world of musical clarity with our cutting-edge piano screen, where
                             technology meets artistry. This expansive display boasts a DFHD resolution, ensuring
@@ -107,13 +108,13 @@
                 <div class="col-lg-12">
                     <div class="content-txt">
                         <h2>A <span>Gamified</span> Learning Experience</h2>
-                        <img src="img/gamified.png" alt="gamified" />
+                        <img src="img/gamified.png" alt="gamified" data-aos-duration="1500" data-aos="zoom-in" />
                     </div>
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-lg-6">
-                    <div class="box-item">
+                    <div class="box-item" data-aos="fade-right" data-aos-duration="2000">
                         <img src="img/whack.png" />
                         <div class="box-txt">
                             <h3>Whack-A-Mole</h3>
@@ -129,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="box-item">
+                    <div class="box-item" data-aos="fade-left" data-aos-duration="2000">
                         <img src="img/find-app-dadishu.png" />
                         <div class="box-txt">
                             <h3>I'm A Drummer</h3>
@@ -147,7 +148,7 @@
             </div>
         </div>
     </section>
-    <section class="technology-sec">
+    <section class="technology-sec" data-aos="fade" data-aos-duration="3000">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -221,10 +222,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 order-2 order-lg-1">
-                    <img class="find-img desktop-img" src="img/find.jpeg" alt="find" />
+                    <img class="find-img desktop-img" src="img/find.jpeg" alt="find" data-aos="fade-right" data-aos-duration="2000" />
                 </div>
                 <div class="col-lg-4 order-1 order-lg-2">
-                    <div class="content-txt">
+                    <div class="content-txt" data-aos="fade-left" data-aos-duration="2000">
                         <h2>Your <span>Control</span> Hub</h2>
                         <p>FIND’s control panel is a model of intuitive design, featuring a multipurpose On/Off button
                             for the screen and a separate system power control. Enjoy precise volume adjustments for the
@@ -235,9 +236,9 @@
                 </div>
             </div>
         </div>
-        <img class="find-img mob-img" src="img/find.jpeg" alt="find" />
+        <img class="find-img mob-img" src="img/find.jpeg" alt="find" data-aos="fade-right" data-aos-duration="2000" />
     </section>
-    <section class="technology-sec experience-sec">
+    <section class="technology-sec experience-sec" data-aos="fade" data-aos-duration="2000" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -260,7 +261,7 @@
             <h2>For <span>Everyone.</span></h2>
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="everyone-box">
+                    <div class="everyone-box" data-aos="fade-up" data-aos-duration="3000">
                         <h3>3-6 years old</h3>
                         <div class="everyone-txt">
                             <p>An extensive library of beginner courses/textbooks and interactive activities</p>
@@ -269,7 +270,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="everyone-box even-box">
+                    <div class="everyone-box even-box" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">
                         <h3>6-10 years old</h3>
                         <div class="everyone-txt">
                             <p>Fast paced engaging piano games and intensive technical exercises.</p>
@@ -278,7 +279,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="everyone-box">
+                    <div class="everyone-box" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1000">
                         <h3>10-16 years old</h3>
                         <div class="everyone-txt">
                             <p>Large selection of pieces with a focus on advanced technicality.</p>
@@ -287,7 +288,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="everyone-box even-box">
+                    <div class="everyone-box even-box" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1500">
                         <h3>All Ages</h3>
                         <div class="everyone-txt">
                             <p>A vast library of big works for the highly developed pianists</p>
@@ -422,7 +423,10 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        AOS.init();
+
         document.addEventListener('DOMContentLoaded', function () {
             const headerHeight = document.querySelector('.header').offsetHeight;
             document.body.style.paddingTop = headerHeight + 'px';
