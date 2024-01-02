@@ -796,3 +796,6 @@ span.menu-close {
     line-height: 28px;
     letter-spacing: 0.18px;
 }
+.technology-sec .tech-txt.tech-title h2 {
+    font-style: italic;
+}
