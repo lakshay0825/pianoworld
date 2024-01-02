@@ -161,7 +161,8 @@ ul {
     list-style: outside none none;
 }
 
-body, section {
+body,
+section {
     overflow-x: hidden;
 }
 
@@ -446,6 +447,7 @@ ul.menu-icon li .count {
 .technology-sec .tech-txt h2 {
     padding-top: 0px;
 }
+
 .technology-sec .tech-txt h2 span {
     color: #B39957;
 }
@@ -566,6 +568,7 @@ ul.menu-icon li .count {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .experience-sec .tech-txt {
     padding-top: 50px;
 }
@@ -764,6 +767,7 @@ span.menu-close {
     display: block;
     border-bottom: solid 1px #2b2d31;
 }
+
 .social-icons {
     margin-top: 15px;
 }
@@ -782,10 +786,16 @@ span.menu-close {
 .footer-col ul li:last-child a {
     border: none;
 }
+
 .w-20 {
     width: 20%;
 }
-.copyright-txt {border-top: solid 1px;padding-top: 20px;margin-top: 50px;}
+
+.copyright-txt {
+    border-top: solid 1px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
 
 .copyright-txt p {
     color: #fff;
@@ -796,6 +806,111 @@ span.menu-close {
     line-height: 28px;
     letter-spacing: 0.18px;
 }
+
 .technology-sec .tech-txt.tech-title h2 {
     font-style: italic;
+}
+
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 11;
+}
+
+.popup-content {
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn.hover-slide-right::before {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    content: "";
+}
+
+.btn.hover-slide-right:hover::before {
+    width: 100%;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0px 25px 15px;
+    min-width: 150px;
+    padding: 0;
+}
+
+.btn span {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+.btn-2::before {
+    background-color: rgb(28, 31, 30);
+    transition: 0.3s ease-out;
+}
+
+.btn-2 span {
+    color: rgb(28, 31, 30);
+    border: 1px solid rgb(28, 31, 30);
+    transition: 0.2s;
+}
+
+.btn-2 span:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.2s 0.1s;
+}
+
+.popup-content h2 {
+    margin-bottom: 15px;
+    font-family: 'SF UI Display Bold';
+    font-size: 40px;
+}
+.popup-content .btn {
+    margin-top: 20px;
 }
