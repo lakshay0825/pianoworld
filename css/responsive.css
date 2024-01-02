@@ -319,6 +319,21 @@
     .technology-sec .tech-txt.tech-title h2 {
         font-size: 29px;
     }
+    .popup-content {
+        padding: 40px 10px 20px;
+    }
+    
+    .popup {
+        width: 90%;
+    }
+    
+    .popup-content h2 {
+        font-size: 28px;
+    }
+    
+    .popup-content p {
+        font-size: 16px;
+    }
 }
 @media screen and (max-width:400px) {
     .high-definition .content-txt::before{
