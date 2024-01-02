@@ -490,10 +490,10 @@
         });
 
         document.addEventListener("DOMContentLoaded", function () {
-            if (Cookies.get('popupDismissed') !== "true") {
+           // if (Cookies.get('popupDismissed') !== "true") {
                 showOverlay();
                 showPopup();
-            }
+            //}
         });
 
         function showOverlay() {
@@ -520,7 +520,7 @@
 
             overlay.style.display = "none";
             popup.style.display = "none";
-            Cookies.set('popupDismissed', 'true', { expires: 7, path: '/' });
+            //Cookies.set('popupDismissed', 'true', { expires: 7, path: '/' });
         }
     </script>
 </body>
